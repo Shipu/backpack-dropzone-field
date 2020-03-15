@@ -1,0 +1,30 @@
+{
+    "name": "shipu/backpack-dropzone-field",
+    "description": "laravel backpack dropzone ajax field",
+    "keywords": ["backpack", "php", "laravel"],
+    "type": "library",
+    "require": {
+        "spatie/laravel-medialibrary": "^7.19"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Shipu Ahamed",
+            "email": "shipuahamed01@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Shipu\\Backpack\\Dropzone\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Shipu\\Backpack\\Dropzone\\BackpackDropzoneServiceProvider"
+            ]
+        }
+    }
+}
